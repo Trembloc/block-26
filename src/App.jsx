@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import ContactList from './ContactList';
 import './App.css'
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-    <h1>My Favorite Contacts</h1>
+    <ContactList/>
+    
     </>
   )
 }
